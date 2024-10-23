@@ -1,5 +1,5 @@
 @echo off
-cd /d "%~dp0"
+cd /d "%~dp0scripts"
 
 echo Checking for node_modules...
 if not exist "node_modules" (
